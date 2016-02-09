@@ -11,11 +11,19 @@ body {
 }
 
 #bio {
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Josefin Slab', serif;
   font-size: 40px;
   color: #003366;
 }
 
 #git {
   padding-left: 25px;
+}
+
+.navbar {
+  background-color: #6699CC;
+}
+
+.technologies {
+  padding-bottom: 25px;
 }
