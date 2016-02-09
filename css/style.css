@@ -9,3 +9,9 @@ body {
   float: right;
   border-radius: 10px;
 }
+
+#bio {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  color: #003366;
+}
