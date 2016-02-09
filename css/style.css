@@ -1,0 +1,11 @@
+body {
+  background-color: #C0C0C0;
+}
+
+#photo {
+  width: 500px;
+  height: 450px;
+  background-image: url('../img/self.png');
+  float: right;
+  border-radius: 10px;
+}
