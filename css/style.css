@@ -1,19 +1,24 @@
 body {
-  background-color: #C0C0C0;
+  background-image: url('../img/background.jpg');
+}
+
+#name {
+  font-size: 120px;
+  text-align: center;
+}
+
+#bio {
+  font-family: 'Josefin Slab', serif;
+  color: #000000;
 }
 
 #photo {
   width: 500px;
   height: 450px;
+  border-radius: 1000px;
+  margin: auto;
   background-image: url('../img/self.png');
-  float: right;
-  border-radius: 10px;
-}
-
-#bio {
-  font-family: 'Josefin Slab', serif;
-  font-size: 40px;
-  color: #003366;
+  align-self: center;
 }
 
 #git {
@@ -21,9 +26,17 @@ body {
 }
 
 .navbar {
-  background-color: #6699CC;
+  background-color: #0D206D;
 }
 
 .technologies {
   padding-bottom: 25px;
+}
+
+#email {
+  font-size: 25px;
+}
+
+#linkedin {
+   padding-right: 10px;
 }
