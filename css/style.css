@@ -9,7 +9,7 @@ body {
 
 #bio {
   font-family: 'Josefin Slab', serif;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 #text {
@@ -20,7 +20,16 @@ body {
 .about {
   font-size: 30px;
   text-align: center;
-  color: #FFFFFF;
+  color: #000000;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  background-color: #3E3E3E;
+  padding: 10%;
+}
+
+.about:hover {
+    opacity: .95;
+    filter: alpha(opacity=95); /* For IE8 and earlier */
 }
 
 #photo {
@@ -29,7 +38,7 @@ body {
   border-width: 2px;
   border: solid;
   margin: auto;
-  background-image: url('../img/self.png');
+  background-image: url('../img/self.jpg');
   align-self: center;
 
 }
