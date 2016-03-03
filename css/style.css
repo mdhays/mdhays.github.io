@@ -9,16 +9,29 @@ body {
 
 #bio {
   font-family: 'Josefin Slab', serif;
-  color: #000000;
+  color: #FFFFFF;
+}
+
+#text {
+  border-width: 2px;
+  border: solid;
+}
+
+.about {
+  font-size: 30px;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 #photo {
   width: 500px;
   height: 450px;
-  border-radius: 1000px;
+  border-width: 2px;
+  border: solid;
   margin: auto;
   background-image: url('../img/self.png');
   align-self: center;
+
 }
 
 #git {
