@@ -12,19 +12,16 @@ body {
   color: #000000;
 }
 
-#text {
-  border-width: 2px;
-  border: solid;
-}
-
 .about {
   font-size: 30px;
   text-align: center;
   color: #000000;
   opacity: 0.4;
   filter: alpha(opacity=40);
-  background-color: #3E3E3E;
+  background-color: #C0C0C0;
   padding: 10%;
+  border-width: 2px;
+  border: solid;
 }
 
 .about:hover {
