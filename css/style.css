@@ -18,14 +18,16 @@ body {
 }
 
 .about {
+  font-family: 'Josefin Slab', serif;
   font-size: 30px;
   text-align: center;
   color: #000000;
   opacity: 0.75;
   background-color: #C0C0C0;
-  padding: 10%;
+  padding: 5%;
   border-width: 2px;
   border: solid;
+  margin-top: 20px;
 }
 
 #photo {
@@ -39,30 +41,39 @@ body {
 
 }
 
-#git {
-  padding-left: 25px;
-}
 
 .navbar {
   background-color: #C0C0C0;
-}
-
-.technologies {
-  padding-bottom: 25px;
 }
 
 #email {
   font-size: 25px;
 }
 
-#in {
-   background-image: url('../img/linkedin.png');
-}
-
-.panel-footer {
-  background-color: #C0C0C0;
+#technologies {
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 150px;
+  color: #000000;
   opacity: 0.75;
+  background-color: #C0C0C0;
+  border-width: 2px;
   border: solid;
-
+  margin-bottom: 150px;
 }
 
+
+#contact {
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  color: #000000;
+  opacity: 0.75;
+  background-color: #C0C0C0;
+  border-width: 2px;
+  border: solid;
+  margin-bottom: 200px;
+
+}
