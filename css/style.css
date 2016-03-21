@@ -1,10 +1,15 @@
 body {
   background-image: url('../img/background.jpg');
+
 }
 
 #name {
+  margin-top: 20px;
   font-size: 120px;
   text-align: center;
+  border: solid;
+  background-color: #C0C0C0;
+  opacity: 0.75;
 }
 
 #bio {
@@ -16,17 +21,11 @@ body {
   font-size: 30px;
   text-align: center;
   color: #000000;
-  opacity: 0.4;
-  filter: alpha(opacity=40);
+  opacity: 0.75;
   background-color: #C0C0C0;
   padding: 10%;
   border-width: 2px;
   border: solid;
-}
-
-.about:hover {
-    opacity: .95;
-    filter: alpha(opacity=95); /* For IE8 and earlier */
 }
 
 #photo {
@@ -45,7 +44,7 @@ body {
 }
 
 .navbar {
-  background-color: #0D206D;
+  background-color: #C0C0C0;
 }
 
 .technologies {
@@ -56,6 +55,14 @@ body {
   font-size: 25px;
 }
 
-#linkedin {
-   padding-right: 10px;
+#in {
+   background-image: url('../img/linkedin.png');
 }
+
+.panel-footer {
+  background-color: #C0C0C0;
+  opacity: 0.75;
+  border: solid;
+
+}
+
