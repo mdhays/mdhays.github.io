@@ -80,3 +80,27 @@ body {
   margin-bottom: 25px;
   padding: 1%;
 }
+
+.col-md-6 {
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.75;
+  background-color: #C0C0C0;
+  border-width: 2px;
+  border: solid;
+  margin-bottom: 150px;
+  padding: 1%;
+}
+
+#projects {
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.75;
+  background-color: #C0C0C0;
+  border-width: 2px;
+  border: solid;
+}
